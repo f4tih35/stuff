@@ -1,1 +1,1 @@
-https://f4tih35.github.io/tool-stuff/03_validate_tc/
+https://f4tih35.github.io/stuff/03_validate_tc/
