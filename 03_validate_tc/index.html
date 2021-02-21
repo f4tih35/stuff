@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>TCKN Validator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-group mt-5">
+            <input class="form-control" type="text" id="TCKN">
+            <button type="button" class="btn btn-primary ml-3 mr-3" onclick="Control();">Check</button>
+        </div>
+        <p class="alert alert-success mt-2" id="true" style="display: none;">Valid</p>
+        <p class="alert alert-danger mt-2" id="false" style="display: none;">Invalid</p>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
